@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -63,21 +64,28 @@
 
     <main>
       <div class="main-info">
-        <img src="./assets/logo-movie.png" width="250px" alt="">
-        <p>
+        <img data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out" src="./assets/logo-movie.png"
+          width="250px" alt="">
+        <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out">
           While working underground to fix a water main, Brooklyn plumbers Mario (Chris Pratt; Jurassic World and The
           LEGO Movie franchises) and brother Luigi (Charlie Day; It’s Always Sunny in Philadelphia) are transported down
           a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on
           an epic quest to find Luigi.
         </p>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="800" data-aos-easing="ease-in-out">
           <a href="https://www.youtube.com/watch?v=TnGl01FkMMo">Watch trailer</a>
           <button>Buy tickets</button>
         </div>
       </div>
-      <img src="./assets/mario-and-luigi.png" width="680px" alt="">
+      <img data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-easing="ease-in-out"
+        src="./assets/mario-and-luigi.png" width="680px" alt="">
     </main>
   </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
